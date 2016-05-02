@@ -1,4 +1,4 @@
-characters = '#c9f:nrb3pl/o<?G4^%F,V(}T~uQ$ghCÑ5&.eHj2LJd!¥€+ RkI[y>{S"]X@MK)OW\\wBa|vY681q7D£;=N-EiAzmP0UZ\'sx*t_•'
+characters = ':€;”1p—)>{iÚ»Xu}rˇÔ`\uf8ff‡.B\'SUÏoZ¸⁄∏◊¯Cn¿]%tJQ#gbO?=ﬂ’h˜K"˛‰Ó˝MG@Ç+^vÎVc‹˘F4L9x2&E/¨kıf8\x07·±Œ[Íq°H›‚jˆ´lÆDÅ„Øﬁ6~I(<R!TeÒ$_Á0ysÂzY5N,wWPA*-d7m|3'
 
 characters_length = len(characters)
 
