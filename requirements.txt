@@ -1,0 +1,16 @@
+altgraph==0.12
+astroid==1.4.4
+colorama==0.3.6
+lazy-object-proxy==1.2.1
+macholib==1.7
+modulegraph==0.12.1
+pbr==1.8.1
+py2app==0.9
+pylint==1.5.4
+requests==2.9.1
+six==1.10.0
+stevedore==1.10.0
+virtualenv==13.1.2
+virtualenv-clone==0.2.6
+virtualenvwrapper==4.7.1
+wrapt==1.10.6
