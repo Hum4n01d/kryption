@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, request, url_for
-
+from os import environ
 from encryption import encode, decode
 
 #Create app
@@ -36,4 +36,4 @@ def decrypt_result():
     return render_template('result.html', message=message)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port = int(environ.get('PORT', 33507)))
