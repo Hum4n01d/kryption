@@ -36,4 +36,4 @@ def decrypt_result():
     return render_template('result.html', message=message)
 
 if __name__ == "__main__":
-    app.run(port = int(environ.get('PORT', 33507)))
+    app.run(host='0.0.0.0', port=int(environ.get('PORT', 33507)))
