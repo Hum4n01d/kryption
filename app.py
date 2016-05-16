@@ -6,11 +6,8 @@ from encryption import encode, decode
 app = Flask(__name__)
 app.secret_key = 'w3ioreadfkl;"JPO#L:RWEK"afo2q243awije"LMK?FSA":K@#"%:RQEFASKF{OEWJT@$ntlwefadczx,mdvklsf}'
 
-#Define variables for templates
-website_name = 'Flask App'
-
 #Index/Home/Landing page
-@app.route('/')
+@app.route('/') 
 def index():
     return render_template('index.html')
 

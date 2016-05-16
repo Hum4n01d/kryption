@@ -3,13 +3,9 @@
     <head>
         <title>Kryption by Hum4n01d</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="minimal-ui">
-        <!-- Allows fullscreen mode from the Homescreen -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-
-        <!-- Sets the color of the text/battery, wireless icons etc -->
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
         <meta charset="UTF-8">
         <script>
             window.onload = function () {
@@ -34,7 +30,10 @@
         <section id="body" class="container">
             <h1 class="display-4 m-y-2">Kryption</h1>
             <p>Kryption lets you encrypt and decrypt a message using a secure formula including a passphrase. The passphrase and can be as short or long as you want. The shorter the passphrase however, the less secure the encryption is. While you shouldn't be able to crack the encryption, we have no liability if your code is broken.</p>
-            <hr> {% block body %} {% endblock %}
+            <hr> 
+            {% block body %}
+            
+            {% endblock %}
         </section>
         <footer class="container text-xs-center">
             <hr>
