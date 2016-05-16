@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="btn-group-lg text-xs-center" role="group" aria-label="Basic example">
+  <a href="{{ url_for('encrypt') }}" class="btn btn-secondary m-r-1">Encrypt</a>
+  <a href="{{ url_for('decrypt') }}" class="btn btn-secondary m-l-1">Decrypt</a>
+</div>
+{% endblock %}

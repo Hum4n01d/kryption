@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<form method="post" action="{{ url_for('encrypt_result') }}">
+    <fieldset class="form-group">
+        <label for="message">Message to encrypt:</label>
+        <input class="form-control" type="text" id="message" name="message">
+    </fieldset>
+    <fieldset class="form-group">
+        <label for="password">Password:</label>
+        <input class="form-control" type="text" id="password" name="password">
+    </fieldset>
+    <button type="submit" class="btn btn-primary pull-xs-right">Submit</button>
+</form>
+{% endblock %}
